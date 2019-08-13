@@ -1,11 +1,10 @@
 import axios from 'axios';
+import { WP_END_POINT } from '../../config';
 
 export const remoteLoader = (callback, route, endPoint) => {
-
     let instanceParams = {
-        //call straight into wp-api - Replace with your API 
-        baseURL: `http://clean-wordpress-wagner-silva.dev.drewberry.co.uk/wp-json/drewberry/v1/get-by-slug?slug=`
-    }
+        baseURL: WP_END_POINT
+    };
 
     const instance = axios.create(instanceParams);
 
