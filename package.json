@@ -13,7 +13,7 @@
     "start:prod": "NODE_ENV=production node build/server.js"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "compress": "^0.99.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
