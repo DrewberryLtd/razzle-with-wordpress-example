@@ -17,7 +17,7 @@
     "compress": "^0.99.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "express": "4.16.3",
+    "express": "4.17.3",
     "identity-obj-proxy": "^3.0.0",
     "intersection-observer": "^0.7.0",
     "jest-css-modules": "^1.1.0",
